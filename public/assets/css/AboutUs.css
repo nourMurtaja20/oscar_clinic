@@ -1,0 +1,717 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+
+body{
+	background-color: #DCF5FF;
+	direction: rtl;
+	height: 100%;
+}
+
+nav{
+	width: 100%;
+	background-color: #fff;
+	padding: 14px 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+    
+	
+}
+a, a:hover{
+	text-decoration: none;
+}
+nav a{
+	color: #15B7D7;
+}
+nav a:hover{
+	color: #1A73B7;
+}
+
+.logo a{
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+	/* background-color: green; */
+	
+}
+
+.logo a:hover{
+	color: #15B7D7;
+}
+
+.logo img{
+	width: 40px;
+margin-left: 10px;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	
+}
+
+.menu li{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size:16px ;
+
+	
+	
+}
+.menu li a{
+	padding: 15px 10px;
+	font-size:18px ;
+	
+}
+.item-button{
+		flex:1;
+		margin-left:12px ;
+	    background: #15B7D7;
+	    border-radius: 4px;
+	    border: none; 
+	    font-family: Tajawal;
+	    font-style: normal;
+	    font-weight: 500;
+	    color: #FFFFFF;
+		
+}
+
+.item-button-secondary{
+	flex: 1;
+	    background: #FFFFFF;
+	    border: 1px solid #15B7D7;
+	    box-sizing: border-box;
+	    border-radius: 4px;
+	    font-family: Tajawal;
+	    font-style: normal;
+	    font-weight: 500;
+	    color: #15B7D7;
+}
+.item-button {
+	margin-right: 20px;
+}
+
+
+.toggle{
+	font-size: 30px;
+	display: none;
+	/* background-color: grey; */
+}
+
+/* section2 */
+
+.section1-aboutUs{
+    display: flex;
+	flex-direction: column;
+    
+}
+
+.hero-box{
+	/* position: absolute; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: -360px;
+	padding-right: 16px;
+	padding-left: 16px;
+	
+}
+
+.hero-image{
+	width: 100%;
+	height: 630px;
+}
+
+.h2-a{
+    /* خدماتنا */
+font-family: Tajawal;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+text-align: right;
+color: #15B7D7;
+}
+
+.p1{
+font-family: Tajawal;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 25px;
+color: #ffffff8f;
+}
+
+ 
+
+.booknow{
+	width: 140px;
+	height: 50px;
+	background: #15B7D7;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-family: Tajawal;
+	padding: 14px 24px;
+	margin-top: 24px;;
+
+}
+
+.section2-aboutUs{
+	display: flex;
+	margin-top: 200px;
+	padding: 24px 110px;
+	flex-direction: column;
+}
+
+.h3-a{
+font-family: Tajawal;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+text-align: right;
+text-transform: uppercase;
+/* secondary color */
+color: #15B7D7;
+} 
+
+.p2{
+	font-family: Tajawal;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: #3b3b3b88;
+	margin-top: 16px;
+	}
+
+	.section3-aboutUs{
+		display: flex;
+		flex-direction: column;
+		display: flex;
+	    padding: 24px 110px;
+	}
+
+	.section4-aboutUs{
+		/* background-color: white; */
+		align-content: center;
+		margin-top: 100px;
+		
+	}
+	.divsection4{
+		display: flex;
+		padding: 60px 50px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		
+	}
+	
+	.div1section4{
+		padding-bottom: 24px;
+		background-color: white;
+		margin-right: 60px;
+		margin-bottom: 24px;
+		width: 42%;
+		border-radius: 5px;
+		
+		
+	}
+	.h3section4{
+		color:#1A73B7;
+		text-align: center;
+		margin-bottom: 24px;
+		font-size: 30px;
+	}
+	.h1section4{
+		padding: 24px;
+		color: #15B7D7;
+	}
+	
+	.paragraph1section4{
+		padding-right: 24px;
+	
+	}
+	.image1section4{
+		width: 100%;
+		border-radius: 5px 5px 0px 0px;
+	}
+	
+
+
+	.h5{
+
+	font-family: Tajawal;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: right;
+	color: #3b3b3b88;
+	padding-left: 16px;
+
+	}
+	.section5-aboutUs{
+		display: flex;
+		background: #FFFFFF;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 280px;
+		margin-top: 80px;
+	}
+	
+	.hsection5{
+		color: #15B7D7;
+		font-size: 34px;
+		padding-bottom: 24px;
+	}
+	
+	.paragraphsection5{
+		font-size: 20px;
+		padding-bottom: 24px;
+		/* padding-top: 24px; */
+		color: #797878;
+		text-align: center;
+		line-height: 30px;
+		margin: 0px 24px;
+	}
+	.link3sec1{
+		padding: 14px;
+		width: 120px;
+		height: 45px;
+		background: #15B7D7;
+		border: 1px solid #15B7D7;
+		border-radius: 4px;
+		font-weight: 500;
+		color: #FFFFFF;
+		text-align: center;
+	}
+	.section6-aboutUs{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 80px;
+	}
+
+	.h8-a{
+		font-family: Tajawal;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		text-align: center;	
+		color: #15B7D7;
+		}
+
+	.h9-a{
+		font-family: Tajawal;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		text-align: center;
+		color: #797878;
+		margin-top: 16px;
+		margin-bottom: 24px;
+		}
+	
+		  .container{
+			  padding: 24px 100px;
+			  flex-direction: column;
+			  display: flex;
+			  align-items: center;
+			  text-align: center;
+		  }
+
+		  .GalleryImg1{
+			width: 45%;
+			margin-bottom: 16px;
+			padding-left: 16px;
+		}
+
+
+			.footer{
+				display: flex;
+				background-color: white;
+				align-items: center;
+				justify-content: space-between;
+				align-content: center;
+				margin-top: 100px;
+				height: 80px;
+				
+			}
+			#logo{
+				margin-right: 100px;
+			}
+			#logo a{
+				color: #15B7D7;
+			}
+			
+			.footer2{
+				display: flex;
+				align-content: center;
+				align-items: center;
+				width: 470px;
+				justify-content:space-evenly;
+				color: #797878;
+			}
+			
+			.footer2con{
+				display: flex;
+				align-content: center;
+				align-items: center;
+			
+			}
+			.textvector4{
+				padding-right: 16px;
+			}
+			.footer3{
+				margin-left: 100px;
+				font-size: 12px;
+				color: #1A73B7;
+			}
+
+
+
+
+@media screen and (max-width:600px) {
+	nav{
+		display: block;
+		position: relative;
+		padding: 15px 16px;
+		width: 100%;
+		position: fixed;
+		
+		
+	}
+	.menu{
+		margin-top: 20px;
+		display: none;
+		
+	}
+	.menu li{
+		text-align: center;
+		
+	}
+	
+	.menu.active , .toggle{
+		display: block;
+	}
+
+	.toggle{
+		position:absolute;
+		top: 15px;
+		left: 16px;
+		
+	}
+
+	.hero-box{
+		margin-top: -300px;
+
+	}
+
+	.hero-image{
+		height: 450px;
+	}
+
+	.p1{
+		font-size: 16px;
+		}
+		
+	.h2-a{
+		font-size: 35px;
+	}
+
+	.booknow{
+		width: 130px;
+		height: 45px;
+		font-size: 14px;
+		
+	}
+
+		
+	.section2-aboutUs{
+		margin-top: 120px;
+		padding: 24px 24px;
+	}
+
+	.h3-a{
+	font-size: 24px;
+	} 
+
+	.p2{
+		font-size: 18px;
+	}
+
+	.section3-aboutUs{
+		padding: 24px 24px;
+	}
+
+
+	.h4{
+		font-size: 18px;
+	}
+
+	.h5{
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+
+	.div1section4{
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 24px;
+		border-radius: 5px;
+		
+	}
+	.image1section4{
+		width: 100%;
+		/* border-radius: 5px 5px 0px 0px; */
+	}
+
+
+	.hsection5{
+		font-size: 24px;
+	}
+	
+	.paragraphsection5{
+		font-size: 18px;
+
+	}
+	.h9{
+		padding: 16px;
+	}
+
+
+	  .container{
+		padding: 24px;
+	}
+	.GalleryImg1{
+		width: 100%;
+
+	}
+
+
+	.footer{
+		height: 250px;
+	}
+	 .footer2{
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 250px;	
+		margin-right: 8px;
+		justify-content: space-between;
+	
+	}
+
+	.textvector4{
+		font-size: 14px;
+	}
+	.footertext{
+		font-size: 12px;
+	}
+	.footer2con{
+		margin-top: 12px;
+		
+	}
+	
+	 #logo{
+		margin-right: 16px;
+	}
+
+
+	.footer3{
+		margin-left: 16px;
+		
+	}  
+}
+
+
+
+@media screen and (min-width:601px)and (max-width:768px) {
+	nav{
+		display: block;
+		position: relative;
+		padding: 15px 16px;
+		/* background-color: blue; */
+		width: 100%;
+		position: fixed;
+		
+	}
+	.menu{
+		margin-top: 20px;
+		display: none;
+		flex-direction: row-reverse;
+		
+	}
+	.menu li{
+		text-align: center;
+		
+	}
+	.menu.active , .toggle{
+		display: block;
+	}
+
+	.toggle{
+		position:absolute;
+		top: 15px;
+		left: 16px;
+		
+	}
+
+	.hero-image{
+		height: 620px;
+	}
+
+	.section2{
+		padding: 24px 24px;
+	}
+
+
+	.section3-aboutUs{
+		padding: 24px 24px;
+	}
+
+	.div1section4{
+		width: 100%;
+		margin-left: 60px;
+		
+	}
+	.image1section4{
+		width: 100%;
+	}
+
+	.h4{
+		font-size: 18px;
+	}
+
+	.h5{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.h9{
+		padding: 16px;
+	}
+
+	  .container{
+		padding: 24px;
+	}
+
+	.GalleryImg1{
+		width: 48%;
+		
+	}
+	
+	.footer{
+		height: 300px;
+	
+	}
+	.footer2{
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 250px;	
+		margin-right: 8px;
+		align-items: center;
+		justify-content: space-between;
+		width: 50%;
+		padding-right: 50px;
+		
+		
+	}
+	.footer2con{
+		margin-top: 12px;
+		
+	}
+
+	#logo{
+		margin-right: 16px;
+	}
+
+	.footer3{
+		margin-left: 16px;
+	}
+}
+
+
+
+@media screen and (min-width:769px)and (max-width:1024px) {
+	nav{
+		display: block;
+		position: relative;
+		padding: 15px 16px;
+		/* background-color: rgb(28, 231, 187); */
+		width: 100%;
+		position: fixed;
+		
+	}
+	.logo img{
+		width: 40px;
+		margin-right: 10px;
+	}
+	.menu{
+		margin-top: 20px;
+		display: none;
+		flex-direction: row-reverse;
+		
+	}
+	.menu li{
+		text-align: center;
+		
+	}
+	.menu.active , .toggle{
+		display: block;
+	}
+
+	.toggle{
+		position:absolute;
+		top: 15px;
+		left: 16px;
+		
+	}
+	.section2-aboutUs{
+		padding: 24px 35px;
+	}
+
+
+	.section3-aboutUs{
+		padding: 24px 35px;
+	}
+
+	.div1section4{
+		width: 40%;
+
+	}
+
+	.h4{
+		font-size: 18px;
+	}
+
+	.h5{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+
+
+	.container{
+		padding: 24px;
+	}
+	#logo{
+		margin-right: 16px;
+	}
+
+	.footer3{
+		margin-left: 16px;
+	}	
+}

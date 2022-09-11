@@ -1,0 +1,848 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: #DCF5FF;
+	direction: rtl;
+}
+nav{
+	width: 100%;
+	background-color: #fff;
+	padding: 14px 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	
+}
+a, a:hover{
+	text-decoration: none;
+}
+nav a{
+	color: #15B7D7;
+}
+nav a:hover{
+	color: #1A73B7;
+}
+
+.logo a{
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+	/* background-color: green; */
+	
+}
+
+.logo a:hover{
+	color: #15B7D7;
+}
+
+.logo img{
+	width: 40px;
+margin-left: 10px;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	
+}
+
+.menu li{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size:16px ;
+
+	
+	
+}
+.menu li a{
+	padding: 15px 10px;
+	font-size:18px ;
+	
+}
+.menuA{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding: 0px 10px;
+	font-size:18px ;
+	
+}
+.item-button {
+	margin-right: 20px;
+}
+
+
+.toggle{
+	font-size: 30px;
+	display: none;
+	/* background-color: grey; */
+}
+.divflex{
+    display: flex;
+    align-items: center;
+	/* background-color: aqua; */
+	padding: 24px 110px;
+	padding-top: 180px;
+
+}
+.div2{
+width: 120px;
+height: 120px;
+/* margin-top: 150px; */
+        
+    }
+.divflex2S{
+    display: flex;
+	flex-direction: column;
+    /* margin-top: 150px; */
+	margin-right: 16px;
+    /* margin-right: 1%; */
+	/* background-color: aqua; */
+}
+.divflex5{
+	/* background-color: #b11b84; */
+	margin-left: 24px ;
+	/* flex-direction: row; */
+	display: flex;
+	margin-top: 16px;
+	align-items: center;
+
+	
+}
+
+.divflex4{
+    display: flex;
+    flex-direction:row;
+	/* background-color:#1dbb84; */
+	
+    /* margin-right: -26%;
+    margin-top: 55px; */
+}
+.h1{
+
+    margin-top: 10px;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    }
+    .img2{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #15B7D7;
+    box-sizing: border-box;
+    border-radius: 6px;
+    }
+    .h2{
+    /* width: 154px;
+    height: 22px; */
+	/* margin: 5px; */
+    
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #797878;
+	padding-right: 16px;
+	
+    }
+   
+    .div3{
+    /* تعديل */
+    
+    position: fixed;
+    width: 42px;
+    height: 19px;
+    left: 10%;
+	top: 130px;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    text-transform: capitalize;
+    cursor: pointer;
+    /* secondary color */
+    
+    color: #15B7D7;
+    
+    }
+	.div4{
+		
+		margin: 10px;
+		
+		font-family: 'Tajawal';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 24px;
+		/* identical to box height */
+		
+		text-align: right;
+		text-transform: capitalize;
+		cursor: pointer;
+		/* text */
+		
+		color: #797878;
+		}
+		.dflex{
+			display: flex;
+			flex-direction: row;
+			margin-right:7%;
+
+		}
+	
+.h3{
+    /* اليوم */
+
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+
+font-family: 'Tajawal';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: right;
+text-transform: capitalize;
+
+/* text gray */
+
+color: #ACACAC;
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+	width: 484px;
+    margin-right: 7.5%;
+    margin-top: 20px;
+    height: 224px;
+    
+    background: #FFFFFF;
+}
+.h4{
+/* موعد رقم 1 */
+
+margin: 14px;
+width: 82px;
+height: 22px;
+
+font-family: 'Tajawal';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: right;
+text-transform: capitalize;
+
+/* main blue */
+
+color: #1A73B7;
+}
+.h5{
+/* التاريخ: */
+
+margin: 10px;
+height: 22px;
+font-family: 'Tajawal';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: right;
+text-transform: capitalize;
+
+/* text */
+
+color: #797878;
+
+}
+.h11{
+/* حذف */
+
+margin-top: -35px;
+margin-left: 25px;
+height: 22px;
+
+font-family: 'Tajawal';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: left;
+text-transform: capitalize;
+
+/* text gray */
+
+color: #ACACAC;
+}
+.div6{
+	display: flex;
+    flex-direction: column;
+	width: 484px;
+    margin-right: 7.5%;
+	margin-top: 20px;
+    height: 224px;
+    
+    background: #FFFFFF;
+}
+
+.footer{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+	margin-top: 310px;
+    height: 80px;
+    
+}
+#logo{
+    margin-right: 100px;
+}
+#logo a{
+    color: #15B7D7;
+}
+
+.footer2{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 470px;
+    justify-content:space-evenly;
+    color: #797878;
+}
+
+.footer2con{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+.textvector4{
+    padding-right: 16px;
+}
+.footer3{
+    margin-left: 100px;
+    font-size: 12px;
+    color: #1A73B7;
+}
+#div7{
+    display: none;
+position: absolute;
+width: 37%;
+height: 582px;
+left: 30%;
+top: 50px;
+background: #ffffff;
+border-radius: 4px;
+}
+.h6{
+position: absolute;
+width: 36%;
+height: 22px;
+left: 58%;
+top: 35px;
+
+font-family: 'Tajawal';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #000000;
+}
+.h7{
+/* الاسم */
+
+
+position: absolute;
+width: 41px;
+height: 19px;
+left: 85%;
+top: 90px;
+
+font-family: 'Tajawal';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: right;
+text-transform: capitalize;
+
+/* text */
+
+color: #797878;
+}
+.username{
+position: absolute;
+width: 86%;
+height: 48px;
+left: 42px;
+top: 130px;
+border: hidden;
+background: #F2F2F2;
+border-radius: 5px;
+}
+.h8{
+    /*  */
+    
+    
+    position: absolute;
+    width: 86px;
+    left: 77%;
+    top: 188px;
+    font-size: 16px;
+    opacity: 1;
+    font-family: 'Tajawal';
+    font-style: normal;
+    
+    text-transform: capitalize;
+    
+    /* text */
+    
+    color: #797878;
+    }
+.email{
+position: absolute;
+width: 86%;
+height: 48px;
+left: 42px;
+top: 220px;
+border: hidden;
+background: #F2F2F2;
+border-radius: 5px;
+}
+.h9{
+    /*  */
+    
+    
+    position: absolute;
+    width: 74px;
+	left: 80%;
+    top: 285px;
+    top: 270px;
+    font-size: 16px;
+    opacity: 1;
+    font-family: 'Tajawal';
+    font-style: normal;
+    
+    text-transform: capitalize;
+    
+    /* text */
+    
+    color: #797878;
+    }
+.phoneno{
+position: absolute;
+width: 86%;
+height: 48px;
+left: 42px;
+top: 320px;
+border: hidden;
+background: #F2F2F2;
+border-radius: 5px;
+}
+.h10{
+    /*  */
+    
+    
+    position: absolute;
+    width: 74px;
+    left: 80%;
+    top: 380px;
+    
+    font-size: 16px;
+    opacity: 1;
+    font-family: 'Tajawal';
+    font-style: normal;
+    
+    text-transform: capitalize;
+    
+    /* text */
+    
+    color: #797878;
+    }
+.address{
+position: absolute;
+width: 86%;
+height: 48px;
+left: 42px;
+top: 425px;
+border: hidden;
+background: #F2F2F2;
+border-radius: 5px;
+}
+.submit{
+
+    position: absolute;
+	width: 86%;
+height: 48px;
+left: 45px;
+top: 500px;
+cursor: pointer;
+/* secondary color */
+
+background: #15B7D7;
+border-radius: 5px;
+    opacity: 1;
+    border: none;
+    font-family: Tajawal;
+    font-weight: Medium;
+    line-height: 22px;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+}
+#img7{
+position: absolute;
+left: 7.88%;
+right: 87.29%;
+top: 6.5%;
+cursor: pointer;
+
+}
+.div11{
+display: none;
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100vw;
+height: 100vh;
+background: rgba(0, 0, 0, 0.7);
+}
+.logout{
+	display: none;
+position: absolute;
+width: 185px;
+height: 45px;
+left: 9%;
+top: 80px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08), inset 0px 1px 4px rgba(0, 0, 0, 0.08);
+border-radius: 2px;
+}
+.imgLogout{
+	position: absolute;
+    right: 10.26%;
+	top: 31.71%;
+    bottom: 85.44%;
+
+
+}
+.textLogout{
+    position: absolute;
+    width: 92px;
+    height: 14px;
+    left: 20%;
+    top: 31%;
+    font-family: 'Tajawal';
+    font-size: 21px;
+    line-height: 14px;
+    color: #797878;
+}
+@media screen and (max-width:600px) {
+	nav{
+		display: block;
+		position: relative;
+		padding: 15px 16px;
+		width: 100%;
+		position: fixed;
+		
+		
+	}
+	.menu{
+		margin-top: 20px;
+		display: none;
+		
+	}
+	.menu li{
+		text-align: center;
+		
+	}
+	
+	.menu.active , .toggle{
+		display: block;
+	}
+
+	.menuA{
+		margin-top: -8%;
+		margin-right: 75%;
+	}
+	.toggle{
+		position:absolute;
+		top: 15px;
+		left: 16px;
+		
+	}
+	.div2{
+		
+		margin-top: 6px;
+				
+	}
+	.divflex{
+		padding: 24px ;
+		flex-direction: column;
+		align-content: center;
+		align-items: flex-start;
+		padding-top: 120px;
+	
+	}
+	
+	.divflex2S{
+		margin-top: 24px;
+	}
+
+	.divflex4{
+		flex-wrap: wrap;
+	}
+	.div5{
+		width: 370px;
+	}
+	.div6{
+		width: 370px;
+	}
+    #div7{
+			width: 60%;
+			left: 20%;
+			top: 50px;
+		
+	}
+	.h6 {
+		width: 46%;
+		height: 22px;
+		left: 47%;
+	}
+	.h7{
+		/* الاسم */
+		width: 41px;		
+		left: 80%;
+		top: 90px;
+		}
+		.username{
+		left: 25px;
+		}
+		.h8{
+			left: 66%;
+			}
+		.email{
+			left: 25px;
+		}
+		.h9{
+			left: 66%;
+			}
+		.phoneno{
+			left: 25px;
+		}
+		.h10{
+			left: 66%;
+			}
+		.address{
+		left: 25px;
+		}
+		.submit{
+			left: 25px;
+		}
+
+	.footer{
+		height: 250px;
+	}
+	 .footer2{
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 250px;	
+		margin-right: 8px;
+		justify-content: space-between;
+	
+	}
+
+	.textvector4{
+		font-size: 14px;
+	}
+	.footertext{
+		font-size: 12px;
+	}
+	.footer2con{
+		margin-top: 12px;
+		
+	}
+	
+	 #logo{
+		margin-right: 16px;
+	}
+
+
+	.footer3{
+		margin-left: 16px;
+		
+	}  
+}
+
+
+@media screen and (min-width:601px)and (max-width:768px) {
+	nav{
+		display: block;
+		position: relative;
+		padding: 15px 16px;
+		background-color: blue;
+		width: 100%;
+		position: fixed;
+		
+	}
+	.menu{
+		margin-top: 20px;
+		display: none;
+		flex-direction: row-reverse;
+		
+	}
+	.menu li{
+		text-align: center;
+		
+	}
+	.menu.active , .toggle{
+		display: block;
+	}
+
+	.menuA{
+		margin-top: -6%;
+		margin-right: 79%;
+	}
+	.toggle{
+		position:absolute;
+		top: 15px;
+		left: 16px;
+		
+	}
+	.divflex{
+	padding: 24px ;
+	flex-direction: column;
+	align-content: center;
+	align-items: flex-start;
+	padding-top: 160px;
+
+}
+.divflex2S{
+    margin-top: 20px;
+
+}
+#div7{
+	width: 60%;
+	left: 20%;
+	top: 50px;
+}
+.footer{
+	height: 300px;
+
+}
+.footer2{
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 250px;	
+	margin-right: 8px;
+	align-items: center;
+	justify-content: space-between;
+	width: 50%;
+	padding-right: 50px;
+	
+	
+}
+.footer2con{
+	margin-top: 12px;
+	
+}
+
+#logo{
+	margin-right: 16px;
+}
+
+.footer3{
+	margin-left: 16px;
+}
+
+}
+@media screen and (min-width:769px)and (max-width:1024px) {
+	nav{
+		display: block;
+		position: relative;
+		padding: 15px 16px;
+		background-color: rgb(28, 231, 187);
+		width: 100%;
+		position: fixed;
+		
+	}
+	.logo img{
+		width: 40px;
+		margin-right: 10px;
+	}
+	.menu{
+		margin-top: 20px;
+		display: none;
+		flex-direction: row-reverse;
+		
+	}
+	.menu li{
+		text-align: center;
+		
+	}
+	.menu.active , .toggle{
+		display: block;
+	}
+
+	.toggle{
+		position:absolute;
+		top: 15px;
+		left: 16px;
+		
+	}
+	.menuA{
+		margin-top: -6%;
+    margin-right: 84%;
+	}
+	#logo{
+		margin-right: 16px;
+	}
+	.divflex{
+		padding: 24px ;
+		padding-top: 160px;
+	
+	}
+	
+
+	.section2{
+		padding: 24px;
+	}
+	#div7{
+		width: 50%;
+		top: 50px;
+	}
+
+	.footer3{
+		margin-left: 16px;
+	}	
+	
+}

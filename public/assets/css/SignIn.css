@@ -1,0 +1,277 @@
+		.body-signin{
+			text-align: center;
+ 		    margin: 24px 0 12px 0;
+ 		    background-color: #DCF5FF;
+			 height: 800px;
+		}
+		.image{
+			position: absolute;
+			width: 49px;
+			height: 35px;
+			left: 50%;
+			top: 30px; 
+			/* background: url(.png); */
+		}
+		.Oscar{
+			position: absolute;
+			width: 217px;
+			height: 53px;
+			left: 44%;
+			top: 40px;
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 40px;
+			line-height: 52px;
+			text-transform: capitalize;
+			color: #1A73B7;
+		}
+		.LoginBox{
+			position: absolute;
+			width: 60%;
+			height: 550px;
+			left: 22%; 
+			top: 150px;
+			background: #FFFFFF;
+			border-radius: 5px;
+		}
+			
+		.header{
+			position: absolute;
+			width: 113px;
+			height: 22px;
+			left: 40%;
+			top: 30px;
+			font-family: Tajawal;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 22px;
+			text-align: right;
+			text-transform: capitalize;
+			color: #000000;
+		}
+		.uname{
+			position: absolute;
+			width: 41px;
+			height: 19px;
+			right:10%;
+			top: 120px;
+			font-family: Tajawal;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 19px;
+			line-height: 19px;
+			text-align: right;
+			text-transform: capitalize;
+			color: #797878;
+		}
+		.username{
+			position: absolute;
+			width: 80%;
+			height: 48px;
+			right:10%;
+			top: 160px;
+			background: #F2F2F2;
+			border-radius: 5px;
+			border: hidden;
+		}
+		.pword{
+			position: absolute;
+			width: 76px;
+			height: 19px;
+			right:10%;
+			top: 250px;
+			font-family: Tajawal;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 19px;
+			line-height: 19px;
+			text-align: right;
+			text-transform: capitalize;
+			color: #797878;
+		}
+		.password{
+			position: absolute;
+			width: 80%;
+			height: 48px;
+			right:10%;
+			top: 280px;
+			background: #F2F2F2;
+			border-radius: 5px;
+			border: hidden;
+		}
+		.username::placeholder{
+		
+			margin-right: 10px;
+			text-align: right;
+			color: #BEBEBE;
+		}
+		.password::placeholder{
+	
+			margin-right: 10px;
+			text-align: right;
+			color: #BEBEBE;
+		}
+		a{
+			position: absolute;
+			width: 92px;
+			height: 14px;
+			font-family: Tajawal;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 14px;
+			text-align: right;
+			text-transform: capitalize;
+			color: #1A73B7;
+			padding-top: 8px;
+			text-decoration: none;
+		}
+		.rePassword{
+			position: absolute;
+			width: 119px;
+			height: 14px;
+			right: 10%;
+			top: 330px;
+			font-family: Tajawal;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 14px;
+			text-align: right;
+			text-transform: capitalize;
+			color: #1A73B7;
+		}
+		.LoginBtn{
+			position: absolute;
+			width: 80%;
+			height: 48px;
+			right: 10%;
+			top: 400px;
+			background-color: #15B7D7;
+			border-radius: 5px;
+			border: hidden;
+			font-size: 18px;
+			line-height: 25px;
+			text-transform: capitalize;
+			/*color: #15B7D7;*/
+			color: white;
+			text-align: center;
+		}
+		.btn1{
+			position: absolute;
+			width: 138px;
+			height: 22px;
+			left: 140px;
+			top: 15px;
+			font-family: Tajawal;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 22px;
+			text-align: right;
+			text-transform: capitalize;
+			color: #FFFFFF;
+		}
+		.signupBtn{
+			position: absolute;
+			width: 80%;
+			height: 48px;
+			right: 10%;
+			top: 470px;
+			background-color: #DCF5FF;
+			border-radius: 5px;
+			border: hidden;
+			font-family: Tajawal;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 25px;
+			text-align: right;
+			text-transform: capitalize;
+			color: #15B7D7;
+			text-align: center;
+		}
+		.btn2{
+			position: absolute;
+			width: 138px;
+			height: 22px;
+			left: 150px;
+			top: 15px;
+			font-family: Tajawal;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 22px;
+			text-align: right;
+			text-transform: capitalize;
+			color: #15B7D7;
+		}
+
+@media screen and (max-width:640px){
+	.image{
+			left: 45%;
+			top: 30px; 
+			/* background-color: green; */
+	}
+	.Oscar{
+		left: 30%;
+		top: 40px;
+		/* background-color: hotpink; */
+	}
+	 .LoginBox{
+		position: absolute; 
+		width: 70%;
+		height: 550px;
+		left: 15%; 
+		top: 150px;
+	}  
+			
+}
+
+@media screen and (min-width:641px)and (max-width:768px){
+    .image{
+			left: 48%;
+			top: 30px; 
+	}
+	.Oscar{
+		left: 36%;
+		top: 40px;
+		/* background-color: yellow; */
+	}
+	.LoginBox{
+		position: absolute; 
+		width: 70%;
+		height: 550px;
+		left: 15%; 
+		top: 150px;
+	}  
+	
+    
+}
+
+@media screen and (min-width:769px)and (max-width:1024px){
+    .image{
+			left: 48%;
+			top: 30px; 
+	}
+	.Oscar{
+		left: 40%;
+		top: 40px;
+		/* background-color: red; */
+	}
+	.LoginBox{
+		position: absolute; 
+		width: 65%;
+		height: 550px;
+		left: 20%; 
+		top: 150px;
+	}  
+	
+    
+}
+
+
+
+

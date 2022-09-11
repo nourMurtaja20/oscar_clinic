@@ -1,0 +1,478 @@
+body{
+    font-size: 14px;
+    text-align: center;
+    margin: 24px 0 12px 0;
+    background-color: #DCF5FF;
+    height: 1500px;
+    }
+    .image{
+        position: absolute;
+        width: 49px;
+        height: 35px;
+        left: 50%;
+			top: 30px;  
+        background: url(.png);
+    }
+    .Oscar{
+        position: absolute;
+        width: 217px;
+        height: 53px;
+        left: 44%;
+		top: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 52px;
+        text-transform: capitalize;
+        color: #1A73B7;
+    }
+    .create{
+        position: absolute;
+        width: 138px;
+        height: 22px;
+        left: 40%;
+		top: 30px;
+
+        font-family: Tajawal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        /* identical to box height */
+        text-align: right;
+        text-transform: capitalize;
+        color: #000000;
+        }
+
+    .div1{
+        position: absolute;
+        width: 60%;
+		height: 1300px;
+		left: 22%; 
+		top: 150px;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+    .uname{
+        position: absolute;
+        width: 41px;
+        height: 19px;
+        right:10%;
+        top: 120px;
+        font-family: Tajawal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #797878;
+    }
+    .username{
+        position: absolute;
+        width: 80%;
+        height: 48px;
+        right:10%;
+        top: 160px;
+        background: #F2F2F2;
+        border-radius: 5px;
+        border: hidden;
+    }
+    .username::placeholder{
+		
+        margin-right: 10px;
+        text-align: right;
+        color: #BEBEBE;
+    }
+    .email{
+        position: absolute;
+        width:103px;
+        height: 19px;
+        right:10%;
+        top: 230px;
+        font-family: Tajawal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #797878;  
+    }
+    .email1{
+        position: absolute;
+        width: 80%;
+        height: 48px;
+        right:10%;
+        top: 270px;
+        background: #F2F2F2;
+        border-radius: 5px;
+        border: hidden;
+    }
+    .email1::placeholder {
+        margin-right: 10px;
+        text-align: right;
+        color: #BEBEBE;
+    }
+    .mobile{
+        position: absolute;
+        width: 474px;
+        height: 19px;
+        right:10%;
+        top: 340px;
+        font-family: Tajawal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #797878;  
+    }
+    .mobile1{
+        position: absolute;
+        width: 80%;
+        height: 48px;
+        right:10%;
+        top: 380px;
+        background: #F2F2F2;
+        border-radius: 5px;
+        border: hidden;
+    }
+    .mobile1::placeholder {
+        margin-right: 10px;
+        text-align: right;
+        color: #BEBEBE;
+    }
+    .pass{
+        position: absolute;
+        width: 474px;
+        height: 19px;
+        right:10%;
+        top: 450px;
+        font-family: Tajawal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #797878;  
+    }
+    .pass1{
+        position: absolute;
+        width: 80%;
+        height: 48px;
+        right:10%;
+        top: 490px;
+        background: #F2F2F2;
+        border-radius: 5px;
+        border: hidden;
+    }
+    .pass1::placeholder {
+        margin-right: 10px;
+        text-align: right;
+        color: #BEBEBE;
+    }
+    .bairthday{
+        position: absolute;
+        width: 474px;
+        height: 19px;
+        right:10%;
+        top: 670px;
+        font-family: Tajawal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #797878;  
+    }
+    .bairthday1{
+        position: absolute;
+        width: 80%;
+        height: 48px;
+        right:10%;
+        top: 710px;
+        background: #F2F2F2;
+        border-radius: 5px;
+        border: hidden;
+    }
+    .bairthday1::placeholder {
+        margin-right: 10px;
+        text-align: right;
+        color: #BEBEBE;
+    }
+    .Living{
+        position: absolute;
+        width: 41px;
+        height: 19px;
+        right:10%;
+        top: 780px;
+        font-family: Tajawal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #797878;
+    }
+    .Living1{
+        position: absolute;
+        width: 80%;
+        height: 48px;
+        right:10%;
+        top: 820px;
+        background: #F2F2F2;
+        border-radius: 5px;
+        border: hidden;
+    }
+    .Living1::placeholder {
+        margin-right: 10px;
+        text-align: right;
+        color: #BEBEBE;
+    }
+    .gender{
+        width: 72px;
+        color: rgba(121,120,120,1);
+        position: absolute;
+        top: 890px;
+        right: 10%;
+        font-family: Tajawal;
+        font-weight: Medium;
+        font-size: 19px;
+        opacity: 1;
+        text-align: right;   
+    }
+    .gendermale{
+        width: 16px;
+        background-color: rgba(130,200,229,0.5);
+        position: absolute;
+        top: 930px;
+        right: 10%;;
+        font-family: Tajawal;
+        font-weight: Regular;
+        font-size: 14px;
+        opacity: 1;
+        text-align: right;
+    }
+    .Lgendermale{
+        width: 16px;
+        color: rgba(0,0,0,1);
+        position: absolute;
+        top: 930px;
+        right: 14%;
+        font-family: Tajawal;
+        font-weight: Regular;
+        font-size: 16px;
+        opacity: 1;
+        text-align: right;
+    }
+    .genderfemale {
+        width: 16px;
+        background-color: rgba(130,200,229,0.5);
+        position: absolute;
+        top: 930px;
+        right: 20%;;
+        font-family: Tajawal;
+        font-weight: Regular;
+        font-size: 14px;
+        opacity: 1;
+        text-align: right;
+    }
+    .Lgenderfemale {
+        width: 16px;
+        color: rgba(0,0,0,1);
+        position: absolute;
+        top: 930px;
+        right: 24%;
+        font-family: Tajawal;
+        font-weight: Regular;
+        font-size: 16px;
+        opacity: 1;
+        text-align: right;
+    }
+    .Diseases{
+        position: absolute;
+        width: 474px;
+        height: 19px;
+        right:10%;
+        top: 980px;
+        font-family: Tajawal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 19px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #797878;   
+    }
+    .Diseases1{
+        position: absolute;
+        width: 80%;
+        height: 48px;
+        right:10%;
+        top: 1020px;
+        background: #F2F2F2;
+        border-radius: 5px;
+        border: hidden;
+    }
+    .Diseases1::placeholder {
+        margin-right: 10px;
+        text-align: right;
+        color: #BEBEBE;
+    }
+    .haveaccount{
+        width: 86px;
+        color: rgba(172,172,172,1);
+        position: absolute;
+        top: 920px;
+        right: 10%;
+        font-family: Tajawal;
+        font-weight: Medium;
+        font-size: 16px;
+        opacity: 1;
+        text-align: right;
+    }
+    .a1{
+        width: 75px;
+        color: rgba(26,115,183,1);
+        position: absolute;
+        top: 935px;
+        right: 170px;
+        font-family: Tajawal;
+        font-weight: Medium;
+        font-size: 16px;
+        opacity: 1;
+        text-align: right;
+        text-decoration: none;   
+    }
+    .submit{
+        position: absolute;
+        width: 80%;
+        height: 48px;
+        right: 10%;
+        top: 975px;
+        background-color: #15B7D7;
+        border-radius: 5px;
+        border: hidden;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: capitalize;
+        /*color: #15B7D7;*/
+        color: white;
+        text-align: center;
+    }
+
+
+    @media screen and (max-width:640px){
+        .image{
+                left: 45%;
+                top: 30px; 
+                /* background-color: green; */
+        }
+        .Oscar{
+            left: 30%;
+            top: 40px;
+            /* background-color: hotpink; */
+        }
+         .div1{
+            position: absolute; 
+            width: 75%;
+            height: 1300px;
+            left: 10%; 
+            top: 150px;
+        }  
+        .create{
+            left: 30%;
+            }
+        .genderfemale {
+                right: 28%;;
+            }    
+        .Lgendermale{
+            right: 20%; 
+        }
+        .Lgenderfemale {
+            right: 38%; 
+        }
+        .a1{
+            right: 120px;
+            
+        }
+                
+    }
+    
+    
+    @media screen and (min-width:641px)and (max-width:768px){
+        .image{
+                left: 48%;
+                top: 30px; 
+        }
+        .Oscar{
+            left: 36%;
+            top: 40px;
+            /* background-color: yellow; */
+        }
+        .div1{
+            position: absolute; 
+            width: 70%;
+            height: 1300px;
+            left: 15%; 
+            top: 150px;
+        }  
+        .genderfemale {
+            right: 28%;;
+        }    
+    .Lgendermale{
+        right: 16%; 
+    }
+    .Lgenderfemale {
+        right: 34%; 
+    }
+    .a1{
+        right: 135px;
+        
+    }
+    
+        
+        
+    }
+    
+    @media screen and (min-width:769px)and (max-width:1024px){
+        .image{
+                left: 48%;
+                top: 30px; 
+        }
+        .Oscar{
+            left: 40%;
+            top: 40px;
+            /* background-color: red; */
+        }
+        .div1{
+            position: absolute; 
+            width: 65%;
+            height: 1300px;
+            left: 20%; 
+            top: 150px;
+        }  
+        .genderfemale {
+            right: 28%;;
+        }    
+    .Lgendermale{
+        right: 16%; 
+    }
+    .Lgenderfemale {
+        right: 34%; 
+    }
+    .a1{
+        right: 150px;
+        
+    }
+        
+        
+    }
+    
+    
